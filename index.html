@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/master.css">
+
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Newsletter sign-up form with success message</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(4, 100%, 67%);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="content">
+      <article>
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      </article>
+      <div class="mid">
+        <div class="one">
+          <img src="assets/images/icon-list.svg" alt="icon-list">
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="two">
+          <img src="assets/images/icon-list.svg" alt="icon-list">
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="three">
+          <img src="assets/images/icon-list.svg" alt="icon-list">
+          <p>And much more!</p>
+        </div>
+      </div>
+      <div class="fill">
+        <label for="email">Email address</label>
+        <input type="text" placeholder="email@company.com" id="email">
+        <p class="error-p">Valid email required</p>
+        <button class="subscribe">Subscribe to monthly newsletter</button>
+      </div>
+    </div>
+    <div class="image">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="sign-up" class="desk">
+      <img src="assets/images/illustration-sign-up-mobile.svg" alt="sign-up" class="mobile">
+    </div>
+  </main>
+
+
+  <!-- Start success page -->
+  <div class="success">
+    <div class="container">
+      <div class="image-success">
+        <img src="assets/images/icon-success.svg" alt="success-icon">
+      </div>
+      <div class="text">
+        <h1 class="success-title">Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to <span></span>.
+          Please open it and click the button inside to confirm your subscription.</p>
+      </div>
+      <button class="dismiss">Dismiss message</button>
+    </div>
+  </div>
+  <!-- Start success page -->
+
+  <footer>
+    <div class="attribution">
+
+      Coded by <a href="https://github.com/Mahmoudamin11" target="_blank">Mahmoud Mohamed Amin</a>.
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
